@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LEGENDSMEDIA@LENZANDY</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: url('header.jpg') no-repeat center center/cover;
+      height: 300px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .logo-text {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 30px;
+      border-radius: 10px;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #001f3f;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .card {
+      background: white;
+      margin: 20px auto;
+      padding: 30px;
+      max-width: 900px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .spiritual img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-text">LEGENDSMEDIA@LENZANDY</div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#dream">Dream</a>
+    <a href="#faith">Spiritual</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section" id="welcome">
+    <img src="len.jpg" alt="Lenz Andreas" class="profile-img" />
+    <h2>Welcome to My Personal Website</h2>
+    <p>I’m Lenz Andreas, a creative and passionate student who believes in faith, purpose, and dreams. Let’s take this journey together.</p>
+  </section>
+
+  <section class="section card" id="about">
+    <h2>About Me</h2>
+    <p>I am a student at Kigali Christian School in Senior 4 (S4), studying the MPG combination: Mathematics, Physics, and Geography.</p>
+  </section>
+
+  <section class="section card" id="dream">
+    <h2>My Dream: Becoming a Pilot</h2>
+    <p>
+      Absolutely. Being a pilot is my dream job.
+      <br><br>
+      1. <strong>Flying is fun</strong>: Flying an aircraft, whether it be a glider or a powered aircraft, is an absolutely amazing feeling.
+      <br>
+      2. <strong>Travel</strong>: Getting to fly and travel for free? That’s a good deal.
+      <br>
+      3. <strong>The View</strong>: There’s nothing like the view from above—sunsets at 38,000 ft are breathtaking.
+      <br><br>
+      I know I’ll need to work hard, study aviation, and get my commercial license. But I’m ready to give it my all.
+    </p>
+  </section>
+
+  <section class="section card spiritual" id="faith">
+    <h2>My Faith</h2>
+    <p>I’m a Christian, baptized on July 13, 2022. My faith guides me daily and gives me purpose.</p>
+    <blockquote><strong>Proverbs 3:5–6</strong><br>
+      “Trust in the Lord with all your heart, and do not lean on your own understanding.
+      In all your ways acknowledge Him, and He will make straight your paths.”
+    </blockquote>
+    <img src="bible.jpg" alt="Open Bible Image"/>
+  </section>
+
+  <section class="section card" id="contact">
+    <h2>Contact Me</h2>
+    <p>Name: Niyomahoro Lenz Andreas</p>
+    <p>Email: niyomahorolenz@gmail.com</p>
+    <p>Phone: 0793896143</p>
+    <p>Instagram: <a href="https://instagram.com/l.e.n.z.niyo" target="_blank">@l.e.n.z.niyo</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Lenz Andreas | All Rights Reserved
+  </footer>
+
+</body>
+</html>
